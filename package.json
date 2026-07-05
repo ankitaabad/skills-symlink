@@ -4,8 +4,8 @@
   "description": "Manage a central skills registry (e.g. ~/skills) and symlink a subset into the current project.",
   "type": "module",
   "bin": {
-    "skl": "./dist/cli.js",
-    "skills-symlink": "./dist/cli.js"
+    "skl": "dist/cli.js",
+    "skills-symlink": "dist/cli.js"
   },
   "main": "./dist/cli.js",
   "files": [
@@ -48,5 +48,14 @@
     "claude",
     "cursor"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "ankit <ankitaabad.1@gmail.com>",
+  "homepage": "https://github.com/ankitaabad/skills-symlink#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitaabad/skills-symlink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ankitaabad/skills-symlink/issues"
+  }
 }
